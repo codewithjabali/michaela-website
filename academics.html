@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>academics</title>
+    <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <style>
+        /* General Headings & Paragraph */
+
+body>h1{
+    text-align: center;
+} 
+body>p{
+    text-align: center;
+}
+/* School Life Sections */
+#school, #Achievements, #hey {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 30px 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* Individual Sections */
+#school section, #Achievements section, #hey section {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 20px;
+  border-radius: 12px;
+  color: #fff;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  transition: transform 0.3s ease;
+}
+
+#school section:hover,
+#Achievements section:hover,
+#hey section:hover {
+  transform: translateY(-5px);
+}
+
+#school h1, #Achievements h1, #hey h2 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  color: #00ccff;
+}
+
+#Achievements h2 {
+  color: #ffcc00;
+}
+
+/* Lists */
+ul {
+  list-style-type: square;
+  padding-left: 20px;
+  text-align: left;
+  color: #ddd;
+}
+
+ul li {
+  margin-bottom: 8px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  p {
+    font-size: 1rem;
+    padding: 0 10px;
+  }
+
+  #school, #Achievements, #hey {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  #school section, #Achievements section, #hey section {
+    padding: 15px;
+  }
+
+  ul {
+    padding-left: 15px;
+  }
+}
+
+     </style>
+</head>
+<body>
+    <nav>
+        <p><i class="fa fa-graduation-cap"></i>Sister Michaela <br>
+            Girls Secondary <br> School
+</p>
+<ul>
+    <li><a href="michaela.html">Home</a></li>
+     <li><a href="about.html">About</a></li>
+      <li><a href="academics.html">Academics</a></li>
+       <li><a href="school.html">School life</a></li>
+        
+         
+</ul>
+<button><a href="resume.pdf" download>Apply Now</a>
+</button>
+    </nav>
+    <h1>School Life & Activities</h1>
+    <p>Beyond academics, our vibrant school offers <br>
+         more countless
+        opportunities for personal growth,
+         <br>friendship and discovery
+    </p>
+    <div id="school">
+        <section>
+            <h1>Games</h1>
+            <ul>
+                <li>Football</li>
+                <li>volleyball</li>
+                <li>Athletics</li>
+                <li>Netball</li>
+            </ul>
+        </section>
+        <section>
+            <h1>Arts and Culture</h1>
+            <ul>
+                <li>Choir</li>
+                <li>Drama Club</li>
+                <li>Art Society</li>
+                <li>Dance</li>
+                <li>Photography</li>
+            </ul>
+        </section>
+        <section>
+            <h1>Leadership</h1>
+            <ul>
+                <li>Student Council</li>
+                <li>Peer Mentoring</li>
+                <li>Community Service</li>
+                <li>Debate Team</li>
+            </ul>
+        </section>
+        <section>
+            <h1>Special Interests</h1>
+            <ul>
+                <li>School Newspaper</li>
+                <li>Science Club</li>
+                <li>Scout Club</li>
+                <li>Environmental Club</li>
+                <li>Poetry Club</li>
+            </ul>
+        </section>
+
+    </div>
+    <h1>School Traditions</h1>
+    <div id="Achievements">
+        <section>
+            <h2>Founders day</h2>
+            <p>Annual celebration honoring our school's heritage and achievements</p>
+        </section>
+        <section>
+            <h1>Seniors ceremonies</h1>
+            <p>Special tradition marking the transition to senior year</p>
+        </section>
+        <section>
+            <h1>Perfomance Ceremonies</h1>
+            <p>School offers celebration for best
+                performed students
+            </p>
+        </section>
+
+    </div>
+    <h1>Student Achievements</h1>
+    <div id="hey">
+        <section>
+            <h2>School Championships</h2>
+            <p>3 consecutive volleyball state titles</p>
+        </section>
+        <section>
+            <h2>Arts Recognition</h2>
+            <p>Regional choir competition winners</p>
+        </section>
+        <section>
+            <h2>Community Impact</h2>
+            <p>10,000+ volunteer hours annually</p>
+        </section>
+
+
+    </div>
+    <footer>
+  <div class="footer-container">
+    <div class="footer-info">
+      <h3>Contact Us</h3>
+      <p><i class="fa fa-map-marker"></i> Sister Michaela Girls Secondary School,<br>Kisii County, Kenya</p>
+      <p><i class="fa fa-phone"></i> +254 717766093</p>
+      <p><i class="fa fa-envelope"></i> srmichaela@gmail.com </p>
+  
+    </div>
+    <div class="footer-links">
+      <h3>Quick Links</h3>
+      <ul>
+        <li><a href="michaela.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="academics.html">Academics</a></li>
+        <li><a href="school.html">School Life</a></li>
+      </ul>
+    </div>
+  </div>
+  <p class="copyright">
+    &copy; 2025 Sister Michaela Girls School. All rights reserved.
+  </p>
+</footer>
+
+    
+    
+</body>
+</html>
